@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuMoreFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#ffffff">
+
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo_transparent"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="260sp"
+            android:layout_height="wrap_content"
+            />
+
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:background="#00ff0000"
+            android:src="@drawable/ic_baseline_settings_24"
+            />
+
+    </LinearLayout>>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:background="#d3d3d3">
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="아직 데이트 앱 회원이 아니신가요?"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#d3d3d3">
+
+        <ImageButton
+            android:id="@+id/in_button"
+            android:layout_weight="1"
+            android:layout_width="390dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_launcher_background"
+            android:background="@drawable/solid_button_sign_in"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#d3d3d3">
+
+        <ImageButton
+            android:id="@+id/up_button"
+            android:layout_weight="1"
+            android:layout_width="390dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_launcher_background"
+            android:background="@drawable/solid_button_sign_up"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#d3d3d3">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:text="고객센터"
+            android:textSize="15sp"
+            android:textColor="#808080"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#ffffff">
+
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/FAQ"
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:background="@drawable/solid_button_faq"
+            android:src="@drawable/ic_launcher_background"
+            />
+
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/notice"
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:background="@drawable/solid_button_notice"
+            android:src="@drawable/ic_launcher_background"
+            />
+
+    </LinearLayout>
+    
+</LinearLayout>
